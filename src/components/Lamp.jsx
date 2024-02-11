@@ -37,8 +37,11 @@ export function Lamp() {
       </p>
 
       <TypewriterEffect words={words} className='h-20' />
-      <button className="w-40 h-10 rounded-xl bg-black border dark:border-blue-500 border-transparent text-white text-lg mt-6 hover:scale-110 ease-in duration-300">
-        Contact Me
+      <button className="p-[3px] relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+        <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+          Contact me
+        </div>
       </button>
 
     </LampContainer>
