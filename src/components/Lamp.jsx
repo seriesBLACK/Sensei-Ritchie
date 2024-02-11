@@ -31,12 +31,12 @@ export function Lamp() {
   ];
 
   return (
-    <LampContainer className="flex flex-col items-center justify-center gap-10">
+    <LampContainer className="flex flex-col items-center justify-center gap-10 h-[100vh]">
       <p className="text-black font-medium mb-20 text-xl">
         The road to freedom starts from here
       </p>
 
-      <TypewriterEffect words={words} />
+      <TypewriterEffect words={words} className='h-20' />
       <button className="w-40 h-10 rounded-xl bg-black border dark:border-blue-500 border-transparent text-white text-lg mt-6 hover:scale-110 ease-in duration-300">
         Contact Me
       </button>

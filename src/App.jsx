@@ -1,7 +1,6 @@
-import { BackgroundBeams, BackgroundBeamsDemo } from "./components/BackgroundBeamsDemo";
+import { About } from "./components/About";
 import { FloatingNav } from "./components/FloatingNav";
 import { Lamp } from "./components/Lamp";
-import { TypewriterEffect } from "./components/TypewriterEffect";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
 export default function App() {
@@ -27,13 +26,18 @@ export default function App() {
 
   return (
 
+    <div className="">
 
-    <div className="h-[200vh]">
-      <FloatingNav navItems={navItems} />
-      <Lamp />
-      {/* <BackgroundBeamsDemo /> */}
+      <div className="h-[100vh]">
+        <FloatingNav navItems={navItems} />
+        <Lamp />
+      </div>
+      <div className="h-[100vh]">
+        <About />
 
+      </div>
 
     </div>
+
   )
 }
