@@ -24,7 +24,7 @@ export function About() {
           Who is Sensei Ritchie ?
         </h1>
 
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 font-medium">
+        <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10 font-semibold">
           Under the mask Ritchie is the former student of Sakonji Urokodaki known as Sabito.<br />
           Sabito&apos;s goal is to help people all around find true freedom even may that means danger to his own soul,
           many people think Sabito is just a ghost since he died 30 years ago ? you would be wrong to think so
@@ -34,7 +34,7 @@ export function About() {
           <AnimatedTooltip items={people} />
         </div>
       </div>
-      {/* <BackgroundBeams /> */}
+      <BackgroundBeams />
     </div>
   );
 }
