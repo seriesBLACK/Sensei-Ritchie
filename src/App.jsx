@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { About } from "./components/About";
 import { FloatingNav } from "./components/FloatingNav";
-import { Lamp } from "./components/Lamp";
+import { Hero } from "./components/Hero";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
 export default function App() {
@@ -35,7 +35,7 @@ export default function App() {
 
       <div className="h-[100vh]" ref={home}>
         <FloatingNav navItems={navItems} />
-        <Lamp />
+        <Hero />
       </div>
       <div className="h-[100vh]" ref={about}>
         <About />
@@ -52,6 +52,7 @@ export default function App() {
             Send It
           </button>
         </a>
+
       </div>
 
     </div>
